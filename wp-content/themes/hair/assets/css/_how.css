@@ -1,0 +1,54 @@
+.how {}
+
+.how__content {
+    position: relative;
+    padding-right: 268px;
+}
+@media screen and (max-width: 992px) {
+    .how__content {
+        padding-right: 206px;
+    }
+}
+@media screen and (max-width: 670px) {
+    .how__content {
+        padding-right: 0;
+    }
+}
+
+.how__img {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+	width: 434px;
+}
+@media screen and (max-width: 992px) {
+    .how__img {
+        width: 285px;
+    }
+}
+@media screen and (max-width: 670px) {
+    .how__img {
+        position: relative;
+        top: auto;
+        transform: none;
+        width: calc(100% - 50px);
+        right: auto;
+        left: 25px;
+        margin-bottom: -162px;
+    }
+}
+
+.how__text {
+    padding: 27px 185px 27px 38px;
+}
+@media screen and (max-width: 992px) {
+    .how__text {
+        padding: 38px 106px 18px 18px;
+    }
+}
+@media screen and (max-width: 670px) {
+    .how__text {
+        padding: 188px 18px 0;
+    }
+}

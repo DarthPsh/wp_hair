@@ -1,0 +1,79 @@
+.btn-o {
+    border: 1px solid var(--color-gold);
+    display: flex;
+    align-items: center;
+    padding: 6px 8px;
+    border-radius: 20px;
+}
+.btn-o:hover {
+    color: var(--color-gold);
+}
+
+.btn-o img {
+    margin-right: 14px;
+    height: 26px;
+    min-width: 26px;
+    max-width: 26px;
+}
+@media screen and (max-width: 992px) {
+    .btn-o img {
+        height: 19px;
+        min-width: 19px;
+        max-width: 19px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .btn-o img {
+        height: 16px;
+        min-width: 16px;
+        max-width: 16px;
+        margin-right: 2px;
+    }
+}
+
+
+.btn-accent {
+    font-family: 'Montserrat Alternates', sans-serif;
+    padding: 10px;
+    color: var(--color-black);
+    background: var(--grad-gold-1);
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    min-width: 300px;
+    border-radius: 26px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.26px;
+    text-align: center;
+}
+@media screen and (max-width: 992px) {
+    .btn-accent {
+        font-size: 16px;
+        line-height: 19.5px;
+        min-width: 200px;
+    }
+}
+
+.btn-accent:hover:before {
+    opacity: 1;
+}
+
+.btn-accent:before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: var(--grad-gold-2);
+    z-index: -1;
+    transition: .3s;
+    opacity: 0;
+}
+
+.variables__cta {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}

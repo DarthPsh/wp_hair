@@ -1,0 +1,38 @@
+.menu {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+@media screen and (max-width: 992px) {
+    .menu {
+        flex-direction: column;
+        padding-bottom: 40px !important;
+    }
+}
+
+.menu li:not(:last-child) {
+    margin-right: 77px;
+}
+@media screen and (max-width: 992px) {
+    .menu li:not(:last-child) {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
+
+.menu li a {
+    color: var(--color-white);
+    font-size: 16px;
+    font-weight: 400;
+}
+@media screen and (max-width: 992px) {
+    .menu li a {
+        font-size: 18px;
+    }
+}
+
+.menu li a:hover {
+    color: var(--color-gold);
+}

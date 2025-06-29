@@ -1,0 +1,92 @@
+.font-accent {
+    font-family: 'Cormorant', sans-serif;
+}
+
+.font-main {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.white {
+    color: var(--color-white);
+}
+.gold {
+    color: var(--color-gold);
+}
+
+.center {
+    text-align: center;
+}
+
+.section-title {
+    font-family: 'Cormorant', sans-serif;
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 82.5px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+@media screen and (max-width: 992px) {
+    .section-title {
+        font-size: 36px;
+        line-height: 46.4px;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .section-title {
+        font-size: 24px;
+        line-height: 30.94px;
+    }
+}
+
+.section-desc ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.section-desc ul li:not(:first-child) {
+    margin-top: 40px;
+}
+@media screen and (max-width: 992px) {
+    .section-desc ul li:not(:first-child) {
+        margin-top: 10px;
+    }
+}
+
+.section-desc h3 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.26px;
+    text-align: center;
+    padding: 10px;
+    background: var(--color-gold);
+    min-width: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    min-width: 243px;
+    border-radius: 25px;
+}
+@media screen and (max-width: 992px) {
+    .section-desc h3 {
+        font-size: 16px;
+        line-height: 19.5px;
+        min-width: 151px;
+    }
+}
+
+.section-desc p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21.94px;
+    margin-bottom: 20px;
+}
+@media screen and (max-width: 992px) {
+    .section-desc p {
+        font-size: 14px;
+        line-height: 17.07px;
+        margin-bottom: 10px;
+    }
+}

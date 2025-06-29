@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: var(--color-black);
+    position: relative;
+    font-size: 18px;
+}
+@media screen and (max-width: 992px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+p {
+    margin: 0;
+}
+
+button {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-black);
+    transition: .3s;
+}
+
+a:hover, a:visited  {
+    color: inherit;
+}
+
+button {
+    cursor: pointer;
+}
+
+input[type='checkbox'] {
+    accent-color: var(--color-gold);
+}
+
+.main {
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1270px;
+    padding: 0 15px;
+    width: 100%;
+    margin: auto;
+}
+@media screen and (max-width: 576px) {
+    .container {
+        padding: 0 27px;
+    }
+}
+
+.brs {
+    border-radius: 40px;
+}
+@media screen and (max-width: 992px) {
+    .brs {
+        border-radius: 24px;
+    }
+}
+
+.border-gold {
+    border: 2px solid var(--color-gold);
+}
+@media screen and (max-width: 992px) {
+    .border-gold {
+        border-width: 1px;
+    }
+}
+
+.section-m {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.wpcf7-response-output {
+    display: none !important;
+}

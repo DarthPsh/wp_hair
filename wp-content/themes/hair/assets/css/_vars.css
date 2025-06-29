@@ -1,0 +1,9 @@
+:root {
+    --color-black: #000000;
+    --color-white: #FFFFFF;
+    --color-gold: #E2C08D;
+
+    --grad-gold-1: linear-gradient(180deg, #E8BF85 0%, #F0D6AF 55%, #A38150 100%);
+    --grad-gold-2: linear-gradient(180deg, #A38150 0%, #F0D6AF 55%, #E8BF85 100%);
+
+}

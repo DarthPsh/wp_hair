@@ -1,0 +1,112 @@
+.hello {
+
+}
+
+.hello__content {
+    position: relative;
+    padding-left: 268px;
+}
+@media screen and (max-width: 992px) {
+    .hello__content {
+        padding-left: 206px;
+    }
+}
+@media screen and (max-width: 670px) {
+    .hello__content {
+        padding-left: 0;
+    }
+}
+
+
+.hello__img {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+	width: 396px;
+}
+@media screen and (max-width: 992px) {
+    .hello__img {
+        width: 285px;
+    }
+}
+@media screen and (max-width: 670px) {
+    .hello__img {
+        position: relative;
+        top: auto;
+        transform: none;
+        width: calc(100% - 50px);
+        left: 25px;
+        margin-bottom: -162px;
+    }
+}
+
+.hello__text {
+    padding: 58px 38px 58px 185px;
+}
+@media screen and (max-width: 992px) {
+    .hello__text {
+        padding: 38px 18px 18px 106px;
+    }
+}
+@media screen and (max-width: 670px) {
+    .hello__text {
+        padding: 188px 18px 30px;
+    }
+
+    .hello__content--big-img .hello__img {
+        margin-bottom: -304px;
+    }
+
+    .hello__content--big-img .hello__text--big-padding {
+        padding-top: 330px;
+    }
+}
+
+.hello__desc {
+    font-size: 28px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+@media screen and (max-width: 992px) {
+    .hello__desc {
+        font-size: 14px;
+    }
+}
+
+.hello__desc p:not(:last-child) {
+    margin-bottom: 35px;
+}
+@media screen and (max-width: 992px) {
+    .hello__desc p:not(:last-child) {
+        margin-bottom: 20px;
+    }
+}
+
+.hello__perks {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+@media screen and (max-width: 992px) {
+    .hello__perks {
+        column-gap: 10px;
+        row-gap: 15px;
+    }
+}
+
+.hello__perk {
+    padding: 9px;
+    background: var(--color-gold);
+    border-radius: 20px;
+    text-align: center;
+}
+@media screen and (max-width: 992px) {
+    .hello__perk {
+        padding: 7px;
+        font-size: 13px;
+    }
+}
